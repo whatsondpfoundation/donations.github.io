@@ -6,7 +6,7 @@
       "name": "mobirise5",
       "title": "Mobirise 5",
       "styling": {
-        "primaryColor": "#6592e6",
+        "primaryColor": "#22aa7c",
         "secondaryColor": "#ff6666",
         "successColor": "#40b0bf",
         "infoColor": "#47b5ed",
@@ -30,7 +30,8 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#22aa7c"
+        "#22aa7c",
+        "#005337"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -52,8 +53,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 2,
-    "versionPublish": "5.3.10"
+    "uniqCompNum": 9,
+    "versionPublish": "5.3.10",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -464,7 +466,7 @@
           },
           "_name": "menu3",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"menu menu3\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://digitalplayhouse.org.au\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-drawing.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"http://digitalplayhouse.org.au\" data-app-placeholder=\"Type Text\" target=\"_blank\">Digital Playhouse Foundation </a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"http://news.digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">News</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Sign up</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu menu3\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://digitalplayhouse.org.au\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-drawing.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"http://digitalplayhouse.org.au\" data-app-placeholder=\"Type Text\" target=\"_blank\">Digital Playhouse Foundation </a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"http://news.digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">News</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a>\n                    </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Projects</a><div class=\"dropdown-menu\"><a class=\"text-black text-primary dropdown-item\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Digital Playhouse Foundation</a><a class=\"text-black text-primary dropdown-item\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Accountants on Chain</a><a class=\"text-black text-primary dropdown-item\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">The School of Bitcoin</a><a class=\"text-black text-primary dropdown-item\" href=\"mailto:satoshi@digitalplayhouse.org.au\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">El Salvador</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Sign up</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "teJ7FmUdBo",
           "_anchor": "menu3-1",
           "_protectedParams": [],
@@ -477,29 +479,145 @@
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              ".carousel": {
+                "height": "800px",
+                "img": {
+                  "width": "100%",
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              ".carousel-item, .carousel-inner": {
+                "height": "100%"
+              }
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            "& when (@fullScreen)": {
+              "padding-top": "0",
+              "padding-bottom": "0",
+              ".carousel": {
+                "width": "100%"
+              },
+              ".carousel-inner": {
+                "display": "flex",
+                "align-content": "center",
+                "align-items": "center"
+              },
+              ".carousel-item img": {
+                "height": "100vh",
+                "object-fit": "cover"
+              }
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".mbr-overlay": {
+              "z-index": "1"
             },
-            ".mbr-section-title": {
-              "color": "#ffffff"
+            ".carousel-caption": {
+              "position": "absolute",
+              "top": "50%",
+              "transform": "translateY(-50%)",
+              "left": "0",
+              "height": "(@heightText * 1%)",
+              "overflow": "hidden",
+              "bottom": "0",
+              "text-align": "left",
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center",
+              "padding": "100px 50px",
+              "@media (max-width: 767px)": {
+                "height": "(@heightText * 1.7%)"
+              }
             },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#353535"
+            ".carousel-control": {
+              "display": "inline-flex",
+              "width": "2rem",
+              "height": "2rem",
+              "transition": "all 0.3s",
+              "top": "~\"calc(50% + @{heightText}%/2 + 1rem)\"",
+              "transform": "translateY(-50%)",
+              "left": "0",
+              "margin-left": "50px",
+              "color": "@arrowsColor",
+              "opacity": "1",
+              "&.carousel-control-next": {
+                "margin-left": "100px"
+              },
+              "> span": {
+                "font-size": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-control:hover": {
+              "opacity": "0.6"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            ".mbr-section-subtitle, .slider-subtitle": {
+              "margin-bottom": "30px"
+            },
+            ".caption-text": {
+              "margin-bottom": "20.4px"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              }
+            },
+            "H5": {
+              "color": "#e9ddd8"
             },
             ".mbr-section-subtitle": {
-              "color": "#353535"
+              "color": "#ebc6b8"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
             }
           },
-          "_name": "header2",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/giphy.gif\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#22aa7c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Digital Playhouse Foundation&nbsp;</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>Donations</b></h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>BY DONATING TO OUR VOLUNTEER-RUN CENTRE YOU ARE HELPING US TO IMPROVE DIGITAL FINANCIAL LITERACY AND LONG-TERM EMPLOYMENT PROSPECTS FOR THOSE MOST AT-RISK OF FALLING BEHIND IN REGIONAL AUSTRALIA.  ANY AMOUNT IS APPRECIATED. DONATIONS ARE TAX DEDUCTIBLE.\n<br></b>\n<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-danger\" href=\"http://bitcoin.com\" data-app-placeholder=\"Type Text\" target=\"_blank\">Bitcoin Donations</a> <a class=\"btn btn-warning\" href=\"http://bitcoin.com\" data-app-placeholder=\"Type Text\" target=\"_blank\">Lightning Donations</a> <a class=\"btn btn-black\" href=\"http://fiat.com\" data-app-placeholder=\"Type Text\" target=\"_blank\">Fiat Donations</a> <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Stacks Donations</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "teJ60BdMHK",
-          "_anchor": "header2-0",
+          "_name": "slider1",
+          "_customHTML": "<section class=\"slider1\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\" plugins=\"mobirise-icons2\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"range\" title=\"Height Text\" name=\"heightText\" min=\"20\" max=\"90\" value=\"40\" step=\"5\">\n        <input type=\"checkbox\" title=\"Arrows\" name=\"showArrows\" checked>\n        <input type=\"color\" title=\"Arrows color\" name=\"arrowsColor\" value=\"#ffffff\" condition=\"showArrows\">\n        <input type=\"checkbox\" title=\"Carousel indicators\" name=\"carouselIndicators\" checked>\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#005337\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n       <ol class=\"carousel-indicators\" mbr-if=\"carouselIndicators\">\n            <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"1\" class></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"2\" class></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"3\" class></li>\n            \n            \n        </ol>\n               \n        <div class=\"carousel-inner\">\n            \n            <div class=\"carousel-item slider-image item active\">\n              <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/giphy.gif\" data-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText || showSubitle\">\n                        <h2 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\"></h2>\n                        <h5 class=\"slider-subtitle mbr-fonts-style mbr-regular\" mbr-if=\"showCaption\" mbr-theme-style=\"display-2\"><b>\n                           Digital Playhouse Foundation</b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style caption-text mbr-regular\" mbr-if=\"showText\" mbr-theme-style=\"display-4\"><i>BY DONATING TO OUR VOLUNTEER-RUN CENTRE YOU ARE HELPING US TO IMPROVE DIGITAL FINANCIAL LITERACY AND LONG-TERM EMPLOYMENT PROSPECTS FOR THOSE MOST AT-RISK OF FALLING BEHIND IN REGIONAL AUSTRALIA. ANY AMOUNT IS APPRECIATED. DONATIONS ARE TAX DEDUCTIBLE.&nbsp;<br></i><br><br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Donations</a></div>  \n                  </div>\n             </div>\n           </div><div class=\"carousel-item slider-image item\">\n              <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/fo7200aefec47-1-2000x1414.png\" data-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText || showSubitle\">\n                        <h2 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\"></h2>\n                        <h5 class=\"slider-subtitle mbr-fonts-style mbr-regular\" mbr-if=\"showCaption\" mbr-theme-style=\"display-2\"><b>\n                           The School of Bitcoin</b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style caption-text mbr-regular\" mbr-if=\"showText\" mbr-theme-style=\"display-4\"><i>A  Digital Playhouse Foundation open project to build a dynamic consensus driven curriculum specifically for (de)financial literacy that has the ability to plug into any institution to support learners on problem and project based learning journeys.&nbsp;<br></i><br><br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Donations</a></div>  \n                  </div>\n             </div>\n           </div><div class=\"carousel-item slider-image item\">\n              <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/hero1.3640cee-1-2000x1266.jpg\" data-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText || showSubitle\">\n                        <h2 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\"></h2>\n                        <h5 class=\"slider-subtitle mbr-fonts-style mbr-regular\" mbr-if=\"showCaption\" mbr-theme-style=\"display-2\"><b>\n                           El Salvador Education</b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style caption-text mbr-regular\" mbr-if=\"showText\" mbr-theme-style=\"display-4\"><i>BY DONATING TO OUR VOLUNTEER-RUN CENTRE YOU ARE HELPING US TO IMPROVE DIGITAL FINANCIAL LITERACY AND LONG-TERM EMPLOYMENT PROSPECTS FOR THOSE MOST AT-RISK OF FALLING BEHIND IN REGIONAL AUSTRALIA. ANY AMOUNT IS APPRECIATED. DONATIONS ARE TAX DEDUCTIBLE.&nbsp;<br></i><br><br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Donations</a></div>  \n                  </div>\n             </div>\n           </div><div class=\"carousel-item slider-image item\">\n              <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/accountants-on-chain-1584-396px-1640-856px-1.png\" data-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText || showSubitle\">\n                        <h2 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\"></h2>\n                        <h5 class=\"slider-subtitle mbr-fonts-style mbr-regular\" mbr-if=\"showCaption\" mbr-theme-style=\"display-2\"><b>\n                           Accountants on Chain</b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style caption-text mbr-regular\" mbr-if=\"showText\" mbr-theme-style=\"display-4\"><i>Australia's small-tier accountants, bookkeepers and advisers are at the groundswell of crypto mass adoption. They are integral to the successful transition of SME businesses from Web2 to Web3.<br>They led businesses in the cloud revolution, navigated our financial survival in the pandemic, and are relied upon for guidance through times of rapid change. They ensure compliance, provide strategic advice and data-driven reporting, and every startup needs them!<br>Education is vital. We support Australian Accountants &amp; Advisers with experiential learning solutions and a knowledge sharing community.</i><br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Donations</a></div>  \n                  </div>\n             </div>\n           </div>\n            \n            \n            \n        </div>\n <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" mbr-if=\"showArrows\" data-app-placeholder=\"Type Text\">\n            <span class=\"mobi-mbri mobi-mbri-left\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" mbr-if=\"showArrows\" data-app-placeholder=\"Type Text\">\n            <span class=\"mobi-mbri mobi-mbri-right\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Next</span>\n        </a>\n    </div>\n</section>",
+          "_cid": "tePZAYH5po",
+          "_anchor": "slider1-8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
